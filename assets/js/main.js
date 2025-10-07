@@ -15,11 +15,23 @@ Tools:
 */
 
 //Add for da 1 a 100
+for (let i = 1; i <= 100; i++) {
+    //Add IF for i%3 === 0 && i%5 === 0 (FizzBuzz)
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log('FizzBuzz');
 
-//Add IF for i%3 === 0 && i%5 === 0 (FizzBuzz)
+    } else if (i % 5 === 0) {
+        //Add Else IF for 5 (Buzz)
+        console.log('Buzz');
 
-//Add Else IF for 5 (Buzz)
+    } else if (i % 3 === 0) {
+        //Add  Else IF for 3 (Fizz)
+        console.log('Fizz');
 
-//Add  Else IF for 3 (Fizz)
+    } else {
+        //Add Else i for all number
+        console.log(i);
 
-//Add Else i for all number
+    }
+}
+
