@@ -20,16 +20,16 @@ for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log('FizzBuzz');
 
-    } else if (i % 5 === 0) {
         //Add Else IF for 5 (Buzz)
+    } else if (i % 5 === 0) {
         console.log('Buzz');
 
-    } else if (i % 3 === 0) {
         //Add  Else IF for 3 (Fizz)
+    } else if (i % 3 === 0) {
         console.log('Fizz');
 
-    } else {
         //Add Else i for all number
+    } else {
         console.log(i);
 
     }
