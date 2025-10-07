@@ -7,10 +7,19 @@ Prima di partire a scrivere codice poniamoci qualche domanda:
 Come faccio a sapere se un numero è divisibile per?
 Abbiamo visto qualcosa di particolare che possiamo usare?
 
-Tools: 
+Tools:
 -for
 -if/ else if/ else
-- % per verificare i multipli == 0 
-- log   
+- % per verificare i multipli == 0
+- log
 */
 
+//Add for da 1 a 100
+
+//Add IF for i%3 === 0 && i%5 === 0 (FizzBuzz)
+
+//Add Else IF for 5 (Buzz)
+
+//Add  Else IF for 3 (Fizz)
+
+//Add Else i for all number
